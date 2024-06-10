@@ -8,6 +8,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Table from './components/Table';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <div className="container-fluid">
               <Switch>
                 <Route exact={true} path="/" component={Dashboard} />
+                <Route exact={true} path="/tables" component={Table} />
               </Switch>
             </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-
+import ProjectCard from "./ProjectCard"
 function Dashboard() {
     return (
         <div>
@@ -10,6 +10,7 @@ function Dashboard() {
                     className="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
             </div>
             <Card />
+            <ProjectCard />
         </div>
     )
 }
